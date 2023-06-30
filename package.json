@@ -1,0 +1,19 @@
+{
+  "name": "augur",
+  "version": "1.0.0",
+  "description": "Celo-based Prediction Market using Augur",
+  "main": "truffle-config.js",
+  "scripts": {
+    "test": "truffle test",
+    "compile": "truffle compile",
+    "migrate:celo": "truffle migrate --network celo"
+  },
+  "author": "Ernnies",
+  "license": "MIT",
+  "dependencies": {
+    "@celo/contractkit": "^1.10.2",
+    "augur.js": "^1.17.3",
+    "web3": "^1.5.2"
+  }
+}
+
